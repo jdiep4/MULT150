@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 24
-  productGUID: b1e5761bc86563744bb0bb0671db30b3
+  productGUID: c2564e93e0bfa71479efbb819e9c4af5
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -617,7 +617,10 @@ PlayerSettings:
   webGLThreadsSupport: 0
   webGLDecompressionFallback: 0
   webGLPowerPreference: 2
-  scriptingDefineSymbols: {}
+  scriptingDefineSymbols:
+    Android: CROSS_PLATFORM_INPUT;MOBILE_INPUT
+    Standalone: CROSS_PLATFORM_INPUT
+    iPhone: CROSS_PLATFORM_INPUT;MOBILE_INPUT
   additionalCompilerArguments: {}
   platformArchitecture: {}
   scriptingBackend: {}
@@ -721,10 +724,10 @@ PlayerSettings:
   apiCompatibilityLevel: 6
   activeInputHandler: 0
   windowsGamepadBackendHint: 0
-  cloudProjectId: fce10e46-0044-4e5b-badc-9727a64dcb3a
+  cloudProjectId: c90a1e98-88fe-40ab-8185-81d43205e693
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: jdiep_Hour5
+  projectName: jdiep_Hour5 2026-03-02_00-04-57
   organizationId: jdiep15
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
