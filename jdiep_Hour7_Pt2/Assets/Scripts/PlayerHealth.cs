@@ -17,7 +17,7 @@ public class PlayerHealth : MonoBehaviour
             Debug.Log(health);
         }
 
-        if(health <= 0)        // if health is less than or equal to zero than the log statement is executed
+        if(health == 0)        // if health is equal to zero than the log statement is executed
         {
             Debug.Log("Player has been unalived!");
         }
