@@ -35,7 +35,7 @@ public class PlayerHealth : MonoBehaviour
         health -= poisonDamage;
         Debug.Log(health);         // 0
 
-        health -= poisonDamage;
+        //health -= poisonDamage;
         Debug.Log("Player has been unalived!");
     }
 
