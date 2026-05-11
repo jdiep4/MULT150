@@ -5,11 +5,15 @@ using UnityEngine;
 public class PrefabGenerator : MonoBehaviour
 {
     public GameObject prefab;
+    //public int lamps = 10;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        for(int i = 0; i < 10; i++)
+        {
+            Instantiate(prefab, transform.position, transform.rotation);
+        }
     }
 
     // Update is called once per frame
