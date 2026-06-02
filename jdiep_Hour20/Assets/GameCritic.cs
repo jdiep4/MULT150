@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class GameCritic : MonoBehaviour
 {
-    /*  need to explain answers:
+  /*  
     1.  Is the game too easy or hard?
             - I think the game is too easy because it was quite easy to keep getting power-ups while avoiding the 
         obstacles. However, I did find that it was harder to avoid the obstacles again when the player was recovering
@@ -28,5 +28,10 @@ public class GameCritic : MonoBehaviour
             - The parts of the game that are tedious is when the player recovers from hitting an obstacle, I have to wait 
         for a bit before they can continue running again. It was difficult for me avoid the obstacle to try and get a 
         power-up, since the time was slowed down.
-    */
+
+
+    Modifications I made:
+    1.  I modified the obstacle by using multiple objects to create a flower.
+
+  */
 }
